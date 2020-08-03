@@ -2,7 +2,7 @@
 This project was created on 03.08.2020
 
 ### Project Title
-Bikeshare Project
+Statistical Analysis of a Bikeshare company.
 
 ### Description
 To analize data from a bikeshare enterprise stationated in Chicago, Washington and New York City.
