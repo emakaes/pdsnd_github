@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+03.08.2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+To analize data from a bikeshare enterprise stationated in Chicago, Washington and New York City.
 
 ### Files used
-Include the files used
+bikeshare_2.py
+_MACOSX
+.ipynb_checkpoints
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
 
