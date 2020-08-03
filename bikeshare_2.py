@@ -156,23 +156,26 @@ def user_stats(df, city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+def show_rows():
+    show_data = 'yes'
+    count = 0
+    while show_data == 'yes':
+        show_data = input('Would you like to see 5 rows of the data? Enter yes or no.\n').lower()
+        if show_data != 'yes':
+            break
+        else:
+            print(df.iloc[count:count+5])
+            count += 5
+
 
 def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
-        
-        show_data = 'yes'
-        count = 0
-        while show_data == 'yes':
-            show_data = input('Would you like to see 5 rows of the data? Enter yes or no.\n').lower()
-            if show_data != 'yes':
-                break
-            else:
-                print(df.iloc[count:count+5])
-                count += 5
 
+
+        show_rows()
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
